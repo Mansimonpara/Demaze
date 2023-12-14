@@ -1,0 +1,148 @@
+html{
+    overflow:hidden;
+}
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.class1{
+    /* min-height:5%; */
+    position:relative;
+    background-position: center;
+    /* background-size: cover;  */
+    background-color:rgb(243,252,247);
+    /* border-bottom: 1px solid black;
+    top: 0;
+    bottom: 0; */
+    ;
+    
+    
+}
+.logo{
+    margin-left:30px;
+    color:purple;
+    padding-top: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    min-height: 10vh;
+    padding-top: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    padding-top:10px;
+    justify-content: space-between;
+    left:10%;
+
+    size:200px;
+
+}
+.nav-items{
+    display: flex;
+    padding-top: 15px;
+    color: black;
+    justify-content: space-between;
+    text-align:center;
+    gap:60px;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+a{
+    color: black;
+}
+.btn{
+    /* border:1px solid black; */
+    padding:5px;
+    margin-right:20px;
+
+    background-color:rgb(243,252,247);
+    margin-top: 10px;
+     margin-right: 80px;
+    
+}
+.class2{
+    
+    display: flex;
+    height: 72%;
+    align-items: center;
+    background-color: rgb(238,247,242);
+    font-size: x-large;
+}
+.body{
+    flex-basis: 50%;
+    position: absolute;
+    left: 10%;
+    margin: top;
+    
+}
+mark{
+    color: purple;
+    background-color: aliceblue;
+}
+p{
+    margin-top: 15px;
+}
+.gap{
+    margin: bottom;
+}
+.btn1{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 4px;
+    font-size:large;
+
+}
+
+
+button{
+    margin-bottom: 50px;
+    padding: 5px;
+    border-radius: 4px;
+    font-size:large;
+    
+}
+.photo{
+    margin-left: 950px;
+    margin-bottom: 50px;
+    margin-top: 27px;
+    
+
+}
+.footer{
+    background-color: rgb(29, 29, 51);
+}
+
+.foot-container{
+    margin-left: 15%;
+    color:white;
+    margin-bottom: 50px;
+  }
+  .foot-nav-items1{
+    gap: 35vh;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+  }
+  .foot-nav-items2{
+    gap: 28vh;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    color:antiquewhite;
+    /* justify-content: space-between; */
+  }
+h5{
+    padding-right: 10px;
+}
